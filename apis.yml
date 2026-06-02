@@ -1,16 +1,22 @@
 aid: cheetah
 name: Cheetah
 description: >-
-  Cheetah (Cheetah Technologies, also operating as Kimelo) is an app-based
-  restaurant supply and wholesale ordering marketplace launched in 2015 to
-  bridge the digital gap in foodservice. Its eCommerce platform gives small to
-  medium-sized food distributors and restaurants tools for online ordering,
-  process automation, delivery route optimization, supply chain management, and
-  customer retention, with next-day delivery of daily supplies. Cheetah lets
-  distributors integrate directly with their ERP or inventory management system
-  to automate order placement. Cheetah does not appear to publish a public
-  developer API; integration is offered through direct ERP and inventory system
-  connections rather than a documented developer portal.
+  Cheetah (Cheetah Technologies, with its software platform also marketed as
+  Kimelo) is an AI-enabled, app-based restaurant supply and wholesale ordering
+  marketplace launched in 2015 to bridge the digital gap in foodservice. Its
+  eCommerce platform gives small to medium-sized food distributors and
+  restaurants tools for online ordering, process automation, delivery route
+  optimization, supply chain management, and customer retention, with next-day
+  delivery of daily supplies. In June 2024 the company divested its physical
+  distribution business (Pleasanton, CA) to Palo Alto Foods to focus on
+  commercializing its software platform nationwide. The platform provides
+  digital product catalogs, personalized purchasing insights, integrated
+  payment processing, routing management, and automated inventory tracking, and
+  lets distributors integrate directly with their ERP or inventory management
+  and point-of-sale systems to automate order placement. Cheetah does not
+  appear to publish a public developer API or developer portal; integration is
+  offered through direct ERP, inventory, and POS system connections arranged
+  with the company rather than self-service documented endpoints.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -21,6 +27,8 @@ tags:
   - Supply Chain
   - eCommerce
   - ERP Integration
+  - Foodservice
+  - Marketplace
 url: https://raw.githubusercontent.com/api-evangelist/cheetah/refs/heads/main/apis.yml
 created: '2026-06-02'
 modified: '2026-06-02'
@@ -28,10 +36,92 @@ specificationVersion: '0.19'
 common:
   - type: Website
     url: https://gocheetah.com/
+  - type: About
+    url: https://gocheetah.com/about/
+  - type: Blog
+    url: https://gocheetah.com/blog/
+  - type: Press
+    url: https://gocheetah.com/press/
+  - type: SignUp
+    title: Become a Supplier
+    url: https://gocheetah.com/become-a-supplier/
   - type: Support
     url: https://gocheetah.com/
   - type: LinkedIn
     url: https://www.linkedin.com/company/gocheetah
+  - type: Features
+    data:
+      - name: App-Based Online Ordering
+        description: >-
+          Mobile eCommerce app letting restaurants and foodservice operators
+          browse a digital catalog of thousands of products with transparent
+          pricing and place orders for next-day delivery.
+      - name: Digital Product Catalog
+        description: >-
+          Searchable, merchandised catalog of daily foodservice supplies that
+          distributors can market and sell directly to their customer base.
+      - name: AI Order Transcription
+        description: >-
+          AI-assisted capture of orders from existing channels to reduce manual
+          entry and errors for distributors and sales representatives.
+      - name: Process Automation
+        description: >-
+          Automation of order processing and back-office workflows to streamline
+          operations for small and medium-sized food distributors.
+      - name: Delivery Route Optimization
+        description: >-
+          Routing and logistics management that optimizes delivery routes to cut
+          cost and improve on-time delivery of daily supplies.
+      - name: Automated Inventory Tracking
+        description: >-
+          Inventory tracking and supply chain visibility connecting supply-side
+          systems with in-house sales software.
+      - name: Integrated Payment Processing
+        description: >-
+          Built-in payment processing integrated into the ordering and
+          fulfillment workflow.
+      - name: Personalized Purchasing Insights
+        description: >-
+          Data analytics and purchasing algorithms that surface personalized
+          recommendations and demand insight to grow basket value.
+      - name: Customer Retention Tools
+        description: >-
+          Intelligent customer retention strategies and tooling to help
+          distributors acquire and keep foodservice customers.
+  - type: UseCases
+    data:
+      - name: Distributor eCommerce Enablement
+        description: >-
+          Small to medium-sized food distributors digitize their ordering
+          experience with an app-based storefront instead of phone, fax, and
+          spreadsheet ordering.
+      - name: Restaurant Supply Procurement
+        description: >-
+          Restaurants and foodservice operators across 60+ cuisine types order
+          daily supplies online with next-day delivery.
+      - name: Sales Representative Productivity
+        description: >-
+          Sales reps use the platform to acquire new customers and grow basket
+          value, with reported gains of roughly ten new customers per rep per
+          month and up to 20% higher basket value.
+      - name: Supply Chain Optimization
+        description: >-
+          Distributors reduce food waste and improve efficiency through demand
+          prediction, route optimization, and automated inventory tracking.
+  - type: Integrations
+    data:
+      - name: ERP Systems
+        description: >-
+          Direct integration with a distributor's existing ERP system to
+          automate order placement and synchronize operations.
+      - name: Inventory Management Systems
+        description: >-
+          Direct integration with inventory management systems for automated
+          stock and order tracking.
+      - name: Point-of-Sale Systems
+        description: >-
+          Point-of-sale integration connecting in-store/operator systems with
+          the ordering platform.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
