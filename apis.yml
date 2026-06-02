@@ -1,0 +1,37 @@
+aid: cheetah
+name: Cheetah
+description: >-
+  Cheetah (Cheetah Technologies, also operating as Kimelo) is an app-based
+  restaurant supply and wholesale ordering marketplace launched in 2015 to
+  bridge the digital gap in foodservice. Its eCommerce platform gives small to
+  medium-sized food distributors and restaurants tools for online ordering,
+  process automation, delivery route optimization, supply chain management, and
+  customer retention, with next-day delivery of daily supplies. Cheetah lets
+  distributors integrate directly with their ERP or inventory management system
+  to automate order placement. Cheetah does not appear to publish a public
+  developer API; integration is offered through direct ERP and inventory system
+  connections rather than a documented developer portal.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurant
+  - Wholesale
+  - Ordering
+  - Food Distribution
+  - Supply Chain
+  - eCommerce
+  - ERP Integration
+url: https://raw.githubusercontent.com/api-evangelist/cheetah/refs/heads/main/apis.yml
+created: '2026-06-02'
+modified: '2026-06-02'
+specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://gocheetah.com/
+  - type: Support
+    url: https://gocheetah.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/gocheetah
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
