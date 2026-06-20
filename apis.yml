@@ -18,7 +18,7 @@ description: >-
   offered through direct ERP, inventory, and POS system connections arranged
   with the company rather than self-service documented endpoints.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Restaurant
   - Wholesale
