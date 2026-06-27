@@ -42,7 +42,7 @@ common:
     url: https://gocheetah.com/blog/
   - type: Press
     url: https://gocheetah.com/press/
-  - type: SignUp
+  - type: Signup
     title: Become a Supplier
     url: https://gocheetah.com/become-a-supplier/
   - type: Support
