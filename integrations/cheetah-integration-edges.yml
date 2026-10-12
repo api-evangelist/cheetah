@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/cheetah/integrations
+- https://n8n.io/integrations/cheetah/
+- https://composio.dev/toolkits/cheetah
+- https://monid.ai/tools/cheetah
+checked:
+- https://composio.dev/toolkits/cheetah
+- https://monid.ai/tools/cheetah
+- https://n8n.io/integrations/cheetah/
+- https://zapier.com/apps/cheetah/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
