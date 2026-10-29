@@ -1,4 +1,4 @@
-# Cheetah (cheetah)
+# Cheetah
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,62 +66,79 @@
 
 Cheetah (Cheetah Technologies, with its software platform also marketed as Kimelo) is an AI-enabled, app-based restaurant supply and wholesale ordering marketplace launched in 2015 to bridge the digital gap in foodservice. Its eCommerce platform gives small to medium-sized food distributors and restaurants tools for online ordering, process automation, delivery route optimization, supply chain management, and customer retention, with next-day delivery of daily supplies. In June 2024 the company divested its physical distribution business (Pleasanton, CA) to Palo Alto Foods to focus on commercializing its software platform nationwide. The platform provides digital product catalogs, personalized purchasing insights, integrated payment processing, routing management, and automated inventory tracking, and lets distributors integrate directly with their ERP or inventory management and point-of-sale systems to automate order placement. Cheetah does not appear to publish a public developer API or developer portal; integration is offered through direct ERP, inventory, and POS system connections arranged with the company rather than self-service documented endpoints.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/cheetah/refs/heads/main/apis.yml)
+**Areas:** Restaurant · Wholesale · Ordering · Food Distribution · Supply Chain · E-Commerce · ERP Integration · Food Service · Marketplace
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Cheetah on APIs.io
 
-## Tags:
+Everything profiled for Cheetah is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cheetah/](https://apis.io/providers/cheetah/)** — or go straight to one of the APIs or properties below.
 
- - Restaurant, Wholesale, Ordering, Food Distribution, Supply Chain, eCommerce, ERP Integration, Foodservice, Marketplace
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-06-02
-- **Modified:** 2026-06-02
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cheetah Domain Security](https://apis.io/security/cheetah/cheetah-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://gocheetah.com/)
-- [About](https://gocheetah.com/about/)
-- [Blog](https://gocheetah.com/blog/)
-- [Press](https://gocheetah.com/press/)
-- [Become a Supplier](https://gocheetah.com/become-a-supplier/)
 - [Support](https://gocheetah.com/)
-- [LinkedIn](https://www.linkedin.com/company/gocheetah)
+- [Blog](https://gocheetah.com/blog/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| App-Based Online Ordering | Mobile eCommerce app letting restaurants and foodservice operators browse a digital catalog of thousands of products with transparent pricing and place orders for next-day delivery. |
-| Digital Product Catalog | Searchable, merchandised catalog of daily foodservice supplies that distributors can market and sell directly to their customer base. |
-| AI Order Transcription | AI-assisted capture of orders from existing channels to reduce manual entry and errors for distributors and sales representatives. |
-| Process Automation | Automation of order processing and back-office workflows to streamline operations for small and medium-sized food distributors. |
-| Delivery Route Optimization | Routing and logistics management that optimizes delivery routes to cut cost and improve on-time delivery of daily supplies. |
-| Automated Inventory Tracking | Inventory tracking and supply chain visibility connecting supply-side systems with in-house sales software. |
-| Integrated Payment Processing | Built-in payment processing integrated into the ordering and fulfillment workflow. |
-| Personalized Purchasing Insights | Data analytics and purchasing algorithms that surface personalized recommendations and demand insight to grow basket value. |
-| Customer Retention Tools | Intelligent customer retention strategies and tooling to help distributors acquire and keep foodservice customers. |
+**Kin Score 6.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 3.6 |
+| Access clarity | 13.2 |
 
-| Name | Description |
-|------|-------------|
-| Distributor eCommerce Enablement | Small to medium-sized food distributors digitize their ordering experience with an app-based storefront instead of phone, fax, and spreadsheet ordering. |
-| Restaurant Supply Procurement | Restaurants and foodservice operators across 60+ cuisine types order daily supplies online with next-day delivery. |
-| Sales Representative Productivity | Sales reps use the platform to acquire new customers and grow basket value, with reported gains of roughly ten new customers per rep per month and up to 20% higher basket value. |
-| Supply Chain Optimization | Distributors reduce food waste and improve efficiency through demand prediction, route optimization, and automated inventory tracking. |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| ERP Systems | Direct integration with a distributor's existing ERP system to automate order placement and synchronize operations. |
-| Inventory Management Systems | Direct integration with inventory management systems for automated stock and order tracking. |
-| Point-of-Sale Systems | Point-of-sale integration connecting in-store/operator systems with the ordering platform. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cheetah/](https://apis.io/providers/cheetah/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cheetah: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cheetah/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
